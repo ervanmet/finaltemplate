@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SipEasy | Events</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo">SIPEASY</a>
+
+      <button class="menu-toggle">☰</button>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html" class="nav-button">Book the Venue</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <p class="eyebrow">WHAT'S HAPPENING</p>
+
+        <h1>Events at<br />SipEasy.</h1>
+
+        <p>See what's happening at both Indianapolis locations.</p>
+      </section>
+
+      <section class="event-filters">
+        <button class="event-filter-button active" data-filter="all">
+          ALL EVENTS
+        </button>
+
+        <button class="event-filter-button" data-filter="waterway">
+          WATERWAY
+        </button>
+
+        <button class="event-filter-button" data-filter="pennsylvania">
+          PENNSYLVANIA
+        </button>
+      </section>
+
+      <section class="calendar-section">
+        <div class="calendar-header">
+          <button id="previousMonth">←</button>
+
+          <h2 id="monthYear"></h2>
+
+          <button id="nextMonth">→</button>
+        </div>
+
+        <div class="calendar-weekdays">
+          <div>Sun</div>
+          <div>Mon</div>
+          <div>Tue</div>
+          <div>Wed</div>
+          <div>Thu</div>
+          <div>Fri</div>
+          <div>Sat</div>
+        </div>
+
+        <div id="calendarDays" class="calendar-days"></div>
+      </section>
+
+      <section class="events-list">
+        <article class="event-card" data-location="waterway">
+          <img
+            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80"
+            alt="Live music event"
+            class="event-image"
+          />
+
+          <div class="event-card-content">
+            <p class="eyebrow">WATERWAY • OCTOBER 24</p>
+
+            <h2>Live Music</h2>
+
+            <p>Join us for live music and cocktails.</p>
+          </div>
+        </article>
+
+        <article class="event-card" data-location="pennsylvania">
+          <img
+            src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=900&q=80"
+            alt="Wine evening"
+            class="event-image"
+          />
+
+          <div class="event-card-content">
+            <p class="eyebrow">PENNSYLVANIA • OCTOBER 31</p>
+
+            <h2>Special Evening</h2>
+
+            <p>An evening of wine, food, and conversation.</p>
+          </div>
+        </article>
+
+        <article class="event-card" data-location="waterway">
+          <img
+            src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80"
+            alt="Cocktail event"
+            class="event-image"
+          />
+
+          <div class="event-card-content">
+            <p class="eyebrow">WATERWAY • NOVEMBER 7</p>
+
+            <h2>Cocktail Night</h2>
+
+            <p>Spend the evening enjoying signature cocktails.</p>
+          </div>
+        </article>
+
+        <article class="event-card" data-location="pennsylvania">
+          <img
+            src="https://images.unsplash.com/photo-1558008258-3256797b43f3?auto=format&fit=crop&w=900&q=80"
+            alt="Wine event"
+            class="event-image"
+          />
+
+          <div class="event-card-content">
+            <p class="eyebrow">PENNSYLVANIA • NOVEMBER 14</p>
+
+            <h2>Wine Evening</h2>
+
+            <p>Explore wine selections in a relaxed atmosphere.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">SIPEASY</div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Book</a>
+      </div>
+
+      <p>Indianapolis, Indiana</p>
+
+      <small>© 2026 SipEasy. All Rights Reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

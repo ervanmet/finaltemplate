@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SipEasy | Book the Venue</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo">SIPEASY</a>
+
+      <button class="menu-toggle">☰</button>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html" class="nav-button">Book the Venue</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <p class="eyebrow">PRIVATE EVENTS</p>
+
+        <h1>Book the<br />Venue.</h1>
+
+        <p>Tell us which SipEasy location fits your event.</p>
+      </section>
+
+      <section class="booking-locations">
+        <div class="booking-card">
+          <img
+            src="images/sipeasy-hero_1764181038.webp"
+            alt="Cocktails at Waterway"
+            class="booking-image"
+          />
+
+          <div class="booking-card-content">
+            <p class="eyebrow">LOCATION 01</p>
+
+            <h2>Waterway</h2>
+
+            <p>
+              A more energetic setting for parties, cocktails, celebrations, and
+              larger gatherings.
+            </p>
+
+            <button class="gold-button booking-choice" data-booking="waterway">
+              CHOOSE WATERWAY
+            </button>
+          </div>
+        </div>
+
+        <div class="booking-card">
+          <img
+            src="images/sipeasy901.png"
+            alt="Wine at Pennsylvania"
+            class="booking-image"
+          />
+
+          <div class="booking-card-content">
+            <p class="eyebrow">LOCATION 02</p>
+
+            <h2>Pennsylvania</h2>
+
+            <p>
+              A relaxed setting for wine-focused gatherings, dinners,
+              conversations, and intimate events.
+            </p>
+
+            <button
+              class="gold-button booking-choice"
+              data-booking="pennsylvania"
+            >
+              CHOOSE PENNSYLVANIA
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking-form-section">
+        <div class="form-heading">
+          <p class="eyebrow">EVENT INQUIRY</p>
+
+          <h2>Tell us about<br />your event.</h2>
+        </div>
+
+        <form id="bookingForm">
+          <label>
+            Name
+            <input type="text" id="name" required />
+          </label>
+
+          <label>
+            Email
+            <input type="email" id="email" required />
+          </label>
+
+          <label>
+            Location
+            <select id="selectedLocation" required>
+              <option value="">Select a location</option>
+
+              <option value="Waterway">Waterway</option>
+
+              <option value="Pennsylvania">Pennsylvania</option>
+            </select>
+          </label>
+
+          <label>
+            Event Type
+            <input
+              type="text"
+              id="eventType"
+              placeholder="Birthday, wedding, private party..."
+            />
+          </label>
+
+          <label>
+            Date
+            <input type="date" id="date" required />
+          </label>
+
+          <label>
+            Number of Guests
+            <input type="number" id="guests" min="1" />
+          </label>
+
+          <label class="full-width">
+            Tell us about your event
+            <textarea id="message" rows="6"></textarea>
+          </label>
+
+          <button type="submit" class="gold-button full-width">
+            SEND EVENT INQUIRY
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">SIPEASY</div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Book</a>
+      </div>
+
+      <p>Indianapolis, Indiana</p>
+
+      <small>© 2026 SipEasy. All Rights Reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

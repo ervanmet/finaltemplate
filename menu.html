@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SipEasy | Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="logo">SIPEASY</a>
+
+      <button class="menu-toggle">☰</button>
+
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html" class="nav-button">Book the Venue</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <p class="eyebrow">SIP EASY</p>
+
+        <h1>Choose Your<br />Menu.</h1>
+
+        <p>Each SipEasy location has its own style, drinks, and atmosphere.</p>
+      </section>
+
+      <section class="menu-selector">
+        <button class="menu-location-button active" data-location="waterway">
+          <span>LOCATION 01</span>
+
+          <strong>Waterway</strong>
+
+          <small>Cocktails & Spirits</small>
+        </button>
+
+        <button class="menu-location-button" data-location="pennsylvania">
+          <span>LOCATION 02</span>
+
+          <strong>Pennsylvania</strong>
+
+          <small>Wine & Relaxed Evenings</small>
+        </button>
+      </section>
+
+      <section class="location-menu active" id="waterway-menu">
+        <div class="menu-feature">
+          <img
+            src="images/BackgroundWineClub_1765378966.webp"
+            alt="Cocktail"
+            class="menu-image"
+          />
+
+          <div>
+            <p class="eyebrow">WATERWAY</p>
+
+            <h2>Cocktails made<br />for the night.</h2>
+
+            <p>
+              A cocktail-focused menu made for a livelier evening at our
+              Waterway location.
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-category">
+            <p class="eyebrow">SIGNATURE COCKTAILS</p>
+
+            <div class="menu-item">
+              <h3>House Old Fashioned</h3>
+              <p>Bourbon • Bitters • Orange</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Espresso Martini</h3>
+              <p>Vodka • Espresso • Coffee Liqueur</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Spicy Margarita</h3>
+              <p>Tequila • Lime • Jalapeño</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>French 75</h3>
+              <p>Gin • Lemon • Sparkling Wine</p>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <p class="eyebrow">SPIRITS</p>
+
+            <div class="menu-item">
+              <h3>Bourbon</h3>
+              <p>Ask about our current selection.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Whiskey</h3>
+              <p>A rotating selection of favorites.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Gin</h3>
+              <p>Classic and modern selections.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Tequila</h3>
+              <p>Blanco, reposado, and añejo.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location-menu" id="pennsylvania-menu">
+        <div class="menu-feature">
+          <img
+            src="images/sipeasy901.png"
+            alt="Wine glasses"
+            class="menu-image"
+          />
+
+          <div>
+            <p class="eyebrow">PENNSYLVANIA</p>
+
+            <h2>Wine,<br />conversation, and time.</h2>
+
+            <p>
+              A wine-focused experience designed for slowing down, enjoying good
+              food, and spending time together.
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <div class="menu-category">
+            <p class="eyebrow">WINE</p>
+
+            <div class="menu-item">
+              <h3>House White</h3>
+              <p>Ask about today's selection.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Chardonnay</h3>
+              <p>Bright, smooth, and balanced.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Pinot Noir</h3>
+              <p>Light-bodied and smooth.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Rosé</h3>
+              <p>Fresh and easy to enjoy.</p>
+            </div>
+          </div>
+
+          <div class="menu-category">
+            <p class="eyebrow">SMALL BITES</p>
+
+            <div class="menu-item">
+              <h3>Cheese Board</h3>
+              <p>Seasonal cheeses and accompaniments.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Charcuterie</h3>
+              <p>A selection of cured meats.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Seasonal Salad</h3>
+              <p>Fresh seasonal ingredients.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Shareable Plates</h3>
+              <p>Ask about our current selections.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">SIPEASY</div>
+
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Book</a>
+      </div>
+
+      <p>Indianapolis, Indiana</p>
+
+      <small>© 2026 SipEasy. All Rights Reserved.</small>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
